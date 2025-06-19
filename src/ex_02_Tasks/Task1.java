@@ -1,4 +1,4 @@
-package Tasks;
+package ex_02_Tasks;
 
 public class Task1 {
 

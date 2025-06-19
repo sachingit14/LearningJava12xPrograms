@@ -1,4 +1,4 @@
-package Literals;
+package ex_03_Literals;
 
 public class Lab07_char_literal_unicode {
     public static void main(String[] args) {
