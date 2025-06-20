@@ -5,11 +5,18 @@ import java.sql.SQLOutput;
 public class Task2_TO {
     public static void main(String[] args) {
 
-    int a = 19;
+        // Step 1 ->  Input, Output - data type
+        int a = 0;
+        // input -> int
+        // output -> String -> even or odd
 
-    String result = (a % 2== 0)? "EVEN": "ODD";
+        // Step 2 ->
+        // num%2 == 0 >  even else 1 odd.
 
+        String result = (a % 2== 0)? "EVEN": "ODD";
         System.out.println(result);
 
+        // Edge Cases
+        //  -negative, float.,0
     }
 }
