@@ -42,9 +42,6 @@ public class Lab81_While_Guessing_Game {
                 continue;
             }
 
-
-
-
             if(guess < numberTOGuess){
                 System.out.println("Too low, try again");
             }else if(guess > numberTOGuess) {
