@@ -1,6 +1,6 @@
 package ex_13_Functions;
 
-public class Lab_86User_Defined_One {
+public class Lab88_User_Defined_One {
     public static void main(String[] args) {
         int r1 = sum_of_no(4,10);
         System.out.println(r1);

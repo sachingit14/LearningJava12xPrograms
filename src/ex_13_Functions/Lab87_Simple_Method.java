@@ -1,6 +1,6 @@
 package ex_13_Functions;
 
-public class Lab85_Simple_Method {
+public class Lab87_Simple_Method {
     public static void main(String[] args) {
         ///= no return type or void does not return any.
         non_return_type_func();
