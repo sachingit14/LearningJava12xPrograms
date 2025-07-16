@@ -1,6 +1,6 @@
 package ex_17_OOPs;
 
-public class Lab162Cats {
+public class Lab152Cats {
     public static void main(String[] args) {
          Cat c1 = new Cat();
          Cat c2 = null;
