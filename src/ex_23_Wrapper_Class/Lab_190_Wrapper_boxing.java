@@ -1,6 +1,6 @@
 package ex_23_Wrapper_Class;
 
-public class Lab190_Wrapper_boxing {
+public class Lab_190_Wrapper_boxing {
     public static void main(String[] args) {
         int a= 10;
         Integer b = a; // Boxing - int -> Integer - AutoBoxing - JVM will do it.
