@@ -3,7 +3,7 @@ package TEST_1;
 public class Q2_String_Concatenation_Demo {
     public static void main(String[] args) {
         int a = 10;
-        int b = 20;
+        int b = 5;
         // 1) Normal number addition
         System.out.println(a + b);
 
