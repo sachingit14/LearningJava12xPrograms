@@ -2,7 +2,7 @@ package TEST_1;
 
 public class Q3_Pre_post_increment {
     public static void main(String[] args) {
-        int i = 1;
+        int i = 5;
       //  int j = 1;
         // pre
         System.out.println(++i); //2   //increase first then print
