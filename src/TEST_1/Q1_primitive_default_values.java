@@ -2,6 +2,9 @@ package TEST_1;
 
 public class Q1_primitive_default_values {
     public static void main(String[] args) {
+
+        // Write a Java program to declare variables of all primitive data types and print their default values.
+
         DefualtValue obj = new DefualtValue();
 
         System.out.println("boolean: " + obj.boolValue);
