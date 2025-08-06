@@ -33,4 +33,4 @@ This document contains detailed test cases for the SOAP API `IsValidISBN10`.
 | TC_27_ONLY_SPACES | (spaces) | Spaces as input | API is live | Input with only spaces | false | false | - | false | false | Pass | Sachin | Whitespace not valid | Medium | Yes |
 | TC_28_HTML_INPUT | <ISBN>value</ISBN> | XML input in body | API is live | Send raw XML | Error | Error | - | Error | Error | Pass | Sachin | SOAP only | High | Yes |
 | TC_29_JSON_INPUT | { "isbn": "0471958697" } | Send JSON instead of XML | API is live | Submit JSON body | Error | Error | - | Error | Error | Pass | Sachin | Wrong format | High | Yes |
-| TC_30_SOAP_FAULT_CHECK | 0471958697 | Trigger SOAP Fault | API faulty | Call broken service | SOAP Fault | SOAP Fault | - | SOAP Fault | SOAP Fault | Pass | Sachin | Fault structure check | Medium | Yes |
+| TC_31_EMOJI_INPUT | 😀📘📖 | Emoji characters as input | API is live | Submit emojis in ISBN field | Error | Error | Same as test steps | Error | Error | Pass | Sachin | Emojis are not valid ISBN input | Medium | Yes |
